@@ -5,10 +5,12 @@ Source of truth for decisions is `AWL-SITE-BRIEF.md` (kept by the owner).
 
 Status legend: ☐ todo · ☑ done · ⚠️ attention
 
-**Quick status (2026-06-21):** Site code is BUILT and `npm run build` is green
-(13 static routes). Not yet committed/pushed or deployed. Stage-1 scope: landing
-page + privacy + terms + contact + delete-account, warm/accessible, zero
-third-party trackers.
+**Quick status (2026-06-21):** ✅ LIVE at https://againwithlove-site.vercel.app
+(Vercel production; GitHub auto-deploy from `main` connected). Repo public at
+github.com/christiandzayas-max/againwithlove-site. All routes verified 200.
+**Next: point custom domain againwithlove.com at it (DNS at Namecheap).**
+Stage-1 scope: landing + privacy + terms + contact + delete-account,
+warm/accessible, zero third-party trackers.
 
 ---
 
@@ -59,16 +61,25 @@ third-party trackers.
 
 ## Deploy (mirror TBL's proven path)
 
-- ☐ Create GitHub repo `againwithlove-site` under `christiandzayas-max`;
-      confirm remote BEFORE first push.
-- ☐ First commit + push (author email christiandzayas@gmail.com — must be
-      verified on GitHub or Vercel BLOCKS the deploy).
-- ☐ Vercel: import repo → set `NEXT_PUBLIC_SITE_URL` → deploy.
-- ☐ Add custom domain againwithlove.com in Vercel; set DNS at Namecheap.
-- ☐ Decide + verify apex↔www redirect; make `NEXT_PUBLIC_SITE_URL` match →
-      fresh redeploy (NEXT_PUBLIC_* bakes at build time).
-- ☐ Verify `/privacy`, `/contact`, `/delete-account` return HTTP 200 over HTTPS,
-      not behind preview/auth protection.
+- ☑ Public GitHub repo `christiandzayas-max/againwithlove-site` created + pushed
+      (author christiandzayas@gmail.com — verified on GitHub).
+- ☑ Vercel project `againwithlove-site` (scope: christians-projects-2fda38e4);
+      `NEXT_PUBLIC_SITE_URL=https://againwithlove.com` set (production).
+- ☑ GitHub auto-deploy connected (via dashboard: Settings → Git → Adjust GitHub
+      App Permissions → Connect). Pushes to `main` now auto-deploy.
+- ☑ Production deploy verified LIVE; all routes 200 over HTTPS, not behind
+      preview/auth protection.
+- ☐ Add custom domain againwithlove.com (+ www) in Vercel → Settings → Domains;
+      set DNS at Namecheap (apex A record + www CNAME, per Vercel's instructions).
+- ☐ Set apex as primary, www → apex redirect (canonical = apex, matches
+      `SITE_URL`). If you choose www instead, flip `NEXT_PUBLIC_SITE_URL` to www
+      and redeploy (NEXT_PUBLIC_* bakes at build time).
+- ☐ After DNS: verify https://againwithlove.com/privacy, /contact,
+      /delete-account return 200 over HTTPS.
+
+Note: Vercel CLI auth on this machine is stale (token rejected after a forced
+CLI upgrade). Deploys now go through GitHub push → Vercel auto-deploy, so the CLI
+isn't needed. Re-run `vercel login` only if CLI access is wanted again.
 
 ## Polish / later
 
