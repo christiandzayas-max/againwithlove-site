@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Slightly larger base for an older / stressed audience (WCAG-minded). */
+  font-size: 17px;
+}
+
+body {
+  @apply bg-canvas text-ink antialiased;
+  line-height: 1.65;
+  background-image: radial-gradient(
+      900px 500px at 85% -10%,
+      rgba(230, 174, 58, 0.1),
+      transparent 60%
+    ),
+    radial-gradient(800px 600px at 0% 0%, rgba(201, 138, 27, 0.06), transparent 55%);
+  background-attachment: fixed;
+}
+
+@layer components {
+  /* Page width container with comfortable gutters. */
+  .section {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  /* Warm card surface. */
+  .card {
+    @apply rounded-2xl border border-hairline bg-surface shadow-card;
+  }
+
+  /* Primary call-to-action — dark ink text on warm gold for strong contrast. */
+  .btn-primary {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl
+      bg-gold px-6 py-3 text-base font-semibold text-ink shadow-soft transition
+      hover:bg-gold-bright focus:outline-none focus-visible:ring-2
+      focus-visible:ring-gold-deep focus-visible:ring-offset-2
+      focus-visible:ring-offset-canvas disabled:cursor-not-allowed
+      disabled:opacity-50;
+  }
+
+  /* Secondary / ghost button. */
+  .btn-ghost {
+    @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl
+      border border-hairline bg-surface px-6 py-3 text-base font-medium text-ink
+      transition hover:border-gold/60 hover:bg-surface-soft focus:outline-none
+      focus-visible:ring-2 focus-visible:ring-gold-deep focus-visible:ring-offset-2
+      focus-visible:ring-offset-canvas;
+  }
+
+  /* Small uppercase label / eyebrow. */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-hairline
+      bg-gold-soft/60 px-3 py-1 text-xs font-semibold uppercase tracking-wider
+      text-gold-deep;
+  }
+
+  /* Form field + label. */
+  .field {
+    @apply w-full rounded-xl border border-hairline bg-surface px-4 py-3 text-base
+      text-ink placeholder:text-ink-soft/60 transition focus:border-gold/70
+      focus:outline-none focus:ring-2 focus:ring-gold/30;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-sm font-semibold text-ink-soft;
+  }
+
+  /* Readable measure for long-form legal / prose text. */
+  .prose-legal {
+    @apply text-[1.05rem] leading-relaxed text-ink-soft;
+  }
+
+  /* Visible skip link for keyboard users (revealed on focus). */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100]
+      focus:rounded-lg focus:bg-gold focus:px-4 focus:py-2 focus:font-semibold
+      focus:text-ink focus:shadow-soft;
+  }
+}
+
+/* Respect reduced-motion preferences. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
