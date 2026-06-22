@@ -100,7 +100,7 @@ export default function HomePage() {
       <section
         id="how-it-works"
         aria-labelledby="how-it-works-title"
-        className="scroll-mt-24 bg-surface-soft/60 py-16 sm:py-20"
+        className="scroll-mt-24 bg-calm-soft/50 py-16 sm:py-20"
       >
         <div className="section">
           <div className="mx-auto max-w-3xl text-center">
@@ -117,7 +117,7 @@ export default function HomePage() {
             {STEPS.map((step) => (
               <li key={step.n} className="card flex flex-col p-7">
                 <span
-                  className="flex h-12 w-12 items-center justify-center rounded-full bg-gold-soft text-xl font-bold text-gold-deep"
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-calm-soft text-xl font-bold text-calm-deep"
                   aria-hidden="true"
                 >
                   {step.n}
@@ -171,7 +171,7 @@ export default function HomePage() {
       <section
         id="stay-updated"
         aria-labelledby="stay-updated-title"
-        className="scroll-mt-24 bg-surface-soft/60 py-16 sm:py-20"
+        className="scroll-mt-24 bg-calm-soft/50 py-16 sm:py-20"
       >
         <div className="section">
           <div className="card mx-auto max-w-2xl p-8 text-center sm:p-10">

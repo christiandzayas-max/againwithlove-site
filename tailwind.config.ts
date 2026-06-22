@@ -6,39 +6,51 @@ import type { Config } from "tailwindcss";
  * Emotional register: warm, calm, trustworthy, gentle — for stressed, often
  * older family caregivers. The opposite of slick fintech. Soft warm cream
  * canvas, generous space, large readable type, high contrast, a warm GOLD
- * accent drawn from the brand's gold infinity-heart icon, grounded by a deep
- * cocoa for footers/headings.
+ * accent from the brand's gold infinity-heart logo, plus the app's CALM BLUE
+ * (#5B7FA5) as a secondary accent — on the same warm beige background the app
+ * uses (#F5F0EB), with the app's cool Nord-style ink. Keeping the site and the
+ * app visually consistent is intentional.
  *
  * Contrast is treated as a requirement, not a nice-to-have (WCAG 2.2 AA):
- *  - ink (#29241F) on canvas (#FBF7F1): ~13:1
- *  - ink-soft (#5A5048) on canvas: ~6.5:1  (body secondary text)
- *  - gold-deep (#7A4E0B) on canvas: ~5:1   (small link/accent text)
- *  - ink on gold (#C98A1B): ~5.4:1         (primary buttons use dark text)
+ *  - ink (#2E3440) on canvas (#F5F0EB): ~11:1
+ *  - ink-soft (#4C566A) on canvas: ~6.5:1  (body secondary text)
+ *  - gold-deep (#7A4E0B) on canvas: ~5:1   (small gold link/accent text)
+ *  - calm-deep (#3E5C7E) on canvas: ~8:1   (blue link/accent text)
+ *  - ink on gold (#C98A1B): button uses dark text on gold
  */
 const config: Config = {
   content: ["./src/app/**/*.{ts,tsx}", "./src/components/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        // Surfaces
-        canvas: "#FBF7F1", // warm off-white page background
+        // Surfaces — warm beige base shared with the app (calmer than white)
+        canvas: "#F5F0EB", // the app's warmBackground — calm warm beige
         surface: "#FFFFFF", // cards
-        "surface-soft": "#F5EEE2", // subtle warm panel
-        hairline: "#E8DDCB", // warm borders
+        "surface-soft": "#EFE7DA", // subtle warm panel
+        hairline: "#E4DAC9", // warm borders
 
-        // Text
-        ink: "#29241F", // primary text — warm near-black
-        "ink-soft": "#5A5048", // secondary text
+        // Text — the app's Nord-style ink (cool dark) for a shared look
+        ink: "#2E3440", // primary text
+        "ink-soft": "#4C566A", // secondary text
 
-        // Warm gold accent (from the infinity-heart icon)
+        // Warm gold accent (from the infinity-heart logo)
         gold: {
           DEFAULT: "#C98A1B", // primary accent / buttons
-          deep: "#7A4E0B", // accessible gold for small text & links on cream
+          deep: "#7A4E0B", // accessible gold for small text & links
           bright: "#E6AE3A", // decorative (the infinity-heart, glows)
-          soft: "#F4E6C8", // tint backgrounds / chips
+          soft: "#F4E6C8", // warm tint backgrounds / chips
         },
 
-        // Deep warm grounding tone (footer, hero accents)
+        // Calm blue — the app's primary color, used here as a secondary accent
+        // and for soft background bands that tie the site to the app.
+        calm: {
+          DEFAULT: "#5B7FA5", // app primary blue
+          deep: "#3E5C7E", // accessible blue for text & links
+          soft: "#DCE6EE", // soft blue panel / section band
+          tint: "#EAF0F5", // very light blue wash
+        },
+
+        // Deep grounding tone (footer accents)
         cocoa: {
           DEFAULT: "#2E2620",
           soft: "#3C322A",
