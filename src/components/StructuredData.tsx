@@ -3,7 +3,7 @@ import { SITE_URL as siteUrl, LEGAL_ENTITY, BRAND_NAME, CONTACT_EMAIL } from "@/
 // Site-level JSON-LD (Organization + WebSite), injected once in the root layout.
 //
 // TRUTH RULE: every value here is a verified fact — the brand, the legal entity
-// (Again, With Love, LLC), the canonical URL, the real public contact email, and
+// (Again, With Love LLC), the canonical URL, the real public contact email, and
 // a real logo asset that exists in /public. We deliberately OMIT unverified
 // fields: no postal address (not published for this brand yet), no social
 // `sameAs` profiles (none exist), no telephone (support is by email). Add those

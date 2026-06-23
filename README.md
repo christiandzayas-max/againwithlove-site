@@ -4,7 +4,7 @@ Marketing site for **Again, With Love**, a caregiving app that helps family
 caregivers comfort a loved one living with dementia or Alzheimer's using short,
 pre-recorded video and audio messages in the caregiver's own voice.
 
-Operated by **Again, With Love, LLC**.
+Operated by **Again, With Love LLC**.
 
 ## Stack
 
@@ -38,7 +38,7 @@ public/           logo-icon.png, logo-full.png (brand: gold infinity-heart)
 ## Notes
 
 - `src/lib/site.ts` holds the canonical `SITE_URL` and brand constants. Keep the
-  legal entity name ("Again, With Love, LLC") byte-for-byte consistent.
+  legal entity name ("Again, With Love LLC") byte-for-byte consistent.
 - `NEXT_PUBLIC_SITE_URL` overrides the canonical host (bakes at build time — a
   change needs a fresh deploy). See `.env.example`.
 - The privacy policy reflects the app's real data flows (Firebase Auth /

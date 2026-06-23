@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 /*
   COUNSEL REVIEW PENDING. Baseline terms for a pre-launch caregiving app +
-  marketing site operated by Again, With Love, LLC. Governing law is stated as
+  marketing site operated by Again, With Love LLC. Governing law is stated as
   Arizona because that is where the LLC is organized; confirm with counsel
   before relying on this for app-store submission or banking.
 */

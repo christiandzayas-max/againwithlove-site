@@ -16,7 +16,7 @@ export const SITE_URL =
 // Verified business facts, used across metadata, footer, legal, and JSON-LD.
 // Keep the legal entity name byte-for-byte identical everywhere (banks and
 // payment processors check for exact-match consistency).
-export const LEGAL_ENTITY = "Again, With Love, LLC";
+export const LEGAL_ENTITY = "Again, With Love LLC";
 export const BRAND_NAME = "Again, With Love";
 export const CONTACT_EMAIL = "hello@againwithlove.com";
 export const TAGLINE = "The comfort of your voice, again and again.";
