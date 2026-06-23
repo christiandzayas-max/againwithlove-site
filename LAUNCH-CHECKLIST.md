@@ -5,10 +5,12 @@ Source of truth for decisions is `AWL-SITE-BRIEF.md` (kept by the owner).
 
 Status legend: ☐ todo · ☑ done · ⚠️ attention
 
-**Quick status (2026-06-21):** ✅ LIVE at https://againwithlove-site.vercel.app
-(Vercel production; GitHub auto-deploy from `main` connected). Repo public at
-github.com/christiandzayas-max/againwithlove-site. All routes verified 200.
-**Next: point custom domain againwithlove.com at it (DNS at Namecheap).**
+**Quick status (2026-06-22):** ✅ LIVE on the custom domain
+**https://againwithlove.com** (valid SSL; http→https 308; apex canonical;
+all routes 200). Vercel production w/ GitHub auto-deploy from `main`. Repo
+public at github.com/christiandzayas-max/againwithlove-site. Palette aligned
+with the app (warm beige + calm blue + gold). **Stage 1 is essentially DONE.**
+Remaining: counsel review of /privacy + /terms; optional www→apex redirect.
 Stage-1 scope: landing + privacy + terms + contact + delete-account,
 warm/accessible, zero third-party trackers.
 
@@ -69,13 +71,14 @@ warm/accessible, zero third-party trackers.
       App Permissions → Connect). Pushes to `main` now auto-deploy.
 - ☑ Production deploy verified LIVE; all routes 200 over HTTPS, not behind
       preview/auth protection.
-- ☐ Add custom domain againwithlove.com (+ www) in Vercel → Settings → Domains;
-      set DNS at Namecheap (apex A record + www CNAME, per Vercel's instructions).
-- ☐ Set apex as primary, www → apex redirect (canonical = apex, matches
-      `SITE_URL`). If you choose www instead, flip `NEXT_PUBLIC_SITE_URL` to www
-      and redeploy (NEXT_PUBLIC_* bakes at build time).
-- ☐ After DNS: verify https://againwithlove.com/privacy, /contact,
-      /delete-account return 200 over HTTPS.
+- ☑ Custom domain added in Vercel; Namecheap DNS set (A `@`→76.76.21.21,
+      CNAME `www`→cname.vercel-dns.com). DNS propagated; SSL issued.
+- ☑ Apex is canonical; http→https 308; `SITE_URL`/canonical = apex (match ✓).
+- ☑ Verified https://againwithlove.com + /privacy /contact /delete-account /terms
+      all return 200 over HTTPS (not behind preview/auth protection).
+- ☐ OPTIONAL: make www 308-redirect to apex (Vercel → Settings → Domains → set
+      www to "Redirect to againwithlove.com"). Currently www serves 200 but its
+      canonical points to the apex, so SEO already consolidates — cosmetic only.
 
 Note: Vercel CLI auth on this machine is stale (token rejected after a forced
 CLI upgrade). Deploys now go through GitHub push → Vercel auto-deploy, so the CLI
