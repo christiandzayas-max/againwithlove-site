@@ -84,7 +84,7 @@ export default function ArticlePage({
           dangerouslySetInnerHTML={{ __html: html }}
         />
 
-        <div className="mt-12 rounded-2xl border border-hairline bg-calm-soft/50 p-6 text-center">
+        <div className="mt-12 rounded-2xl border border-calm/20 bg-calm-soft p-6 text-center">
           <p className="text-lg font-semibold text-ink">
             Help for caregivers, every week
           </p>

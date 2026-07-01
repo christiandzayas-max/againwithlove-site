@@ -35,9 +35,9 @@ body {
     @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
   }
 
-  /* Warm card surface. */
+  /* Soft blue brand card (the AWL calm blue), not stark white. */
   .card {
-    @apply rounded-2xl border border-hairline bg-surface shadow-card;
+    @apply rounded-2xl border border-calm/20 bg-calm-soft shadow-card;
   }
 
   /* Primary call-to-action. Dark ink text on warm gold for strong contrast. */

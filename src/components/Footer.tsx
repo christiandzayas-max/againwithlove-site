@@ -4,7 +4,7 @@ import { LEGAL_ENTITY, TAGLINE } from "@/lib/site";
 
 export default function Footer() {
   return (
-    <footer className="mt-24 border-t border-hairline bg-calm-soft/50">
+    <footer className="mt-24 border-t border-hairline bg-surface-soft/60">
       <div className="section py-12">
         <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
           <div className="max-w-sm">

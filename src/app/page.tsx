@@ -37,7 +37,7 @@ export default function HomePage() {
       <section
         id="newsletter"
         aria-labelledby="newsletter-title"
-        className="scroll-mt-24 bg-calm-soft/50 py-16 sm:py-20"
+        className="scroll-mt-24 bg-surface-soft/60 py-16 sm:py-20"
       >
         <div className="section">
           <div className="mx-auto max-w-3xl text-center">
@@ -94,7 +94,7 @@ export default function HomePage() {
       <section
         id="about"
         aria-labelledby="about-title"
-        className="scroll-mt-24 bg-calm-soft/50 py-16 sm:py-20"
+        className="scroll-mt-24 bg-surface-soft/60 py-16 sm:py-20"
       >
         <div className="section">
           <div className="mx-auto max-w-3xl">
