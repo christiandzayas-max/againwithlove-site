@@ -82,6 +82,38 @@ body {
     @apply text-[1.05rem] leading-relaxed text-ink-soft;
   }
 
+  /* Long-form article typography (rendered markdown). */
+  .prose-article {
+    @apply text-[1.075rem] leading-relaxed text-ink-soft;
+  }
+  .prose-article h2 {
+    @apply mb-3 mt-10 text-2xl font-bold text-ink;
+  }
+  .prose-article h3 {
+    @apply mb-2 mt-8 text-xl font-semibold text-ink;
+  }
+  .prose-article p {
+    @apply my-4;
+  }
+  .prose-article ul {
+    @apply my-4 ml-5 list-disc space-y-2;
+  }
+  .prose-article ol {
+    @apply my-4 ml-5 list-decimal space-y-2;
+  }
+  .prose-article a {
+    @apply font-medium text-gold-deep underline underline-offset-2 hover:text-ink;
+  }
+  .prose-article blockquote {
+    @apply my-6 border-l-4 border-gold/50 pl-4 text-ink;
+  }
+  .prose-article strong {
+    @apply font-semibold text-ink;
+  }
+  .prose-article em {
+    @apply italic;
+  }
+
   /* Visible skip link for keyboard users (revealed on focus). */
   .skip-link {
     @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100]

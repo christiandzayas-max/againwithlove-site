@@ -23,6 +23,12 @@ export default function Footer() {
               The App
             </Link>
             <Link
+              href="/articles"
+              className="text-ink-soft transition hover:text-ink"
+            >
+              Articles
+            </Link>
+            <Link
               href="/#signup"
               className="text-ink-soft transition hover:text-ink"
             >
