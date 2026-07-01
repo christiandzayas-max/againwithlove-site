@@ -17,7 +17,11 @@ emails we studied, with the gimmicks and ad plugs stripped out.
 - **Sender name:** Again, With Love
 - **From:** againwithlove@mail.beehiiv.com (beehiiv shared infrastructure)
 - **Reply-to:** hello@againwithlove.com (so replies to "say hello" reach us)
-- **Double opt-in:** on. New subscribers confirm before they are added.
+- **Double opt-in:** on at the publication level, and also on at the subscribe
+  form level (Subscribe forms, our embed, Settings, Require double opt-in).
+- **Testing note:** the beehiiv account's own owner email is auto-confirmed and
+  goes straight to Active with no confirmation email. To test the real flow, use a
+  different address that is not tied to the account, and check Promotions and spam.
 - **Smart Nudge:** on. A reminder goes out 48 hours later if they have not
   confirmed.
 - **Opt-in redirect URL:** againwithlove.com (where a confirmed subscriber lands).
