@@ -13,7 +13,7 @@ clearly disclosed recommendations woven into helpful content, never as ads or
 promotions.)
 
 ## Pre-launch (do this before going public)
-- [ ] Write about 10 issues in private first (owner-approved), so launch day has
+- [ ] Write 10 to 15 issues in private first (owner-approved), so launch day has
       a real archive (authority and trust), the weekly habit is set, and we avoid
       post-launch burnout. No ads or promotions in any of them.
 - [ ] The only goal pre-launch is content-market fit: content that genuinely
@@ -21,6 +21,8 @@ promotions.)
 - [ ] Watch for the signal: caregivers forwarding and sharing it on their own.
       That organic sharing is the green light to shift into growth mode.
 - [ ] Share a few draft issues with real target caregivers for feedback first.
+- [ ] Before the first public send, turn on double opt-in and the welcome email,
+      and run a quick deliverability check (for example mail-tester.com).
 
 ## Know and weight the right audience
 - [ ] Add a short, optional subscribe survey (for example: caring for a parent, a
@@ -164,11 +166,49 @@ Our homepage doubles as the signup page. Keep it a calm, single-action page.
   weeks, then another, and keep the winner. No third-party session-recording or
   heatmap trackers on this health-adjacent site (see Measurement).
 
+## Deliverability and list health
+beehiiv handles the technical side for us on its shared sending infrastructure
+(authentication, SPF, DKIM, DMARC, list verification, image sizing, IP warming,
+and block-list relationships). Our job is the trust side.
+- **Double opt-in on.** New subscribers confirm with a click. It costs a few
+  signups but guarantees genuine, confirmed consent and better inbox placement,
+  which is exactly right for a health-adjacent, trust-first brand.
+- **A warm welcome email** (see `WELCOME-EMAIL.md`). It sets expectations, invites
+  a gentle reply, asks readers to move us to their primary inbox and add us to
+  their contacts, and links a best guide or two. Early opens, replies, and clicks
+  teach the inbox that we are wanted. Mirror the same prompts on the post-subscribe
+  page.
+- **Consistent send slot.** Pick one weekly day and time and hold it, for reader
+  habit and sender reputation. (Leaning Sunday morning; see PLAN and the note in
+  `WELCOME-EMAIL.md`.)
+- **List hygiene, once we have a list.** If a subscriber goes 30 to 60 days with
+  no opens or clicks, send a gentle "want to stay subscribed?" and remove those
+  who do not respond. A smaller, engaged list beats a big, sleepy one.
+- **Lead-magnet honesty.** When a freebie is the draw, say plainly that it also
+  subscribes them to the newsletter. No surprise subscriptions (this extends our
+  no-bait-and-switch rule).
+- **Never buy or scrape a list, ever.** Explicit opt-in only. It breaks trust and
+  deliverability, and it is against beehiiv's terms.
+- **Easy unsubscribe, always.** Never hide or bury it. Someone leaving cleanly is
+  far better than a spam complaint.
+- **Avoid spam-filter red flags in the writing:** no spam-trigger phrasing in
+  subjects (the classic "free gift card"), no ALL CAPS, no exclamation-point
+  pileups, no image-only issues (keep real, readable text), working links, and no
+  link shorteners (beehiiv blocks these anyway). Our calm, no-hype voice already
+  does most of this.
+- **Custom sending domain: later.** Sending from againwithlove.com would let us
+  own our sender reputation, but it needs its own warm-up. While the list is small,
+  stay on beehiiv's strong shared infrastructure, and revisit as we grow.
+
 ## Measurement (with our privacy stance)
 - Tag outbound social and partner links with UTM parameters, and use beehiiv's
   analytics, to find our best sources and double down.
 - Judge content quality by engagement rate, not just reach: (likes + comments +
   shares + saves) divided by followers, tracked over time.
+- Watch email health in beehiiv: open, click, unsubscribe, spam-complaint, and
+  bounce rates. Keep spam-complaint and bounce rates very low.
+- Compete against our own trend, not industry benchmarks. Aim to beat last month's
+  numbers, whatever the average is.
 - Chase the right subscribers, not the biggest number. A real caregiver who reads
   and replies is worth far more than a cheap signup who never opens. Watch who
   actually stays and engages, not just how many join.
