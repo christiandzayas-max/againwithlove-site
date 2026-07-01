@@ -76,7 +76,34 @@ Consistency beats volume. A realistic, sustainable start:
 - Newsletter: weekly.
 The drafting agent produces a batch on a set day each week, the owner approves, and
 approved posts are scheduled in Meta Business Suite (API publishing can come later,
-behind the same approval gate). Nothing posts unattended.
+behind the same approval gate). Nothing posts unattended. Keep-ability beats
+frequency: if a cadence becomes too much, drop to biweekly before breaking the
+streak.
+
+## Brand on social, and promoting each issue
+- **Brand account, not a face** (owner decision). We run a warm brand account, no
+  personal face, like beehiiv's own. Logo and brand accounts work when they are
+  consistent and warm.
+- **No gimmicks, ever** (owner decision). This is a tender subject. We earn
+  attention with warmth, honesty, and a recognizable, beautiful look, never stunts
+  or gags.
+- **A recognizable, followable look.** A consistent carousel template (cream,
+  gold, blue, the infinity-heart) and a predictable kind of value each time, so a
+  caregiver recognizes an Again, With Love post in the feed and knows what they
+  will get.
+- **Promote each issue over three days:** tease the day before, announce the day
+  of, and post an "in case you missed it" the day after. Almost no one sees all
+  three.
+- **Do not fear repetition.** Only a small slice of the audience sees any single
+  post, so reusing and re-promoting strong content reaches new people rather than
+  annoying the same ones.
+- **Keep the subscribe link out of the post body** (it can cut reach). Put the
+  link in the bio and use comment-to-DM via a Meta-compliant tool (for example
+  ManyChat or typefly).
+- **Give far more than you ask,** roughly three parts value to one part ask ("jab,
+  jab, jab, right hook").
+- **Teasers to the newsletter are fine** (post part of it, "the rest is in the
+  newsletter"), but never gate essential caregiver help behind a signup.
 
 ## The testimonial loop (real, permissioned social proof)
 - The satisfaction poll lives at the bottom of each issue (beehiiv's built-in
@@ -91,6 +118,7 @@ behind the same approval gate). Nothing posts unattended.
   Binder, the prep kits), not generic swag. Someone else's rewards will not work.
 - Use milestone automations that nudge ("you are two referrals from the next
   reward").
+- A social shout-out can be a zero-cost reward once we have a following.
 
 ## Partnerships (borrow aligned audiences)
 - Partner with reputable, non-competing organizations and newsletters whose
@@ -112,6 +140,8 @@ behind the same approval gate). Nothing posts unattended.
 ## Measurement (with our privacy stance)
 - Tag outbound social and partner links with UTM parameters, and use beehiiv's
   analytics, to find our best sources and double down.
+- Judge content quality by engagement rate, not just reach: (likes + comments +
+  shares + saves) divided by followers, tracked over time.
 - Keep the no-third-party-tracker stance on the site itself: no ad or retargeting
   pixels on a health-adjacent site. UTMs on outbound links do not add trackers to
   the site.

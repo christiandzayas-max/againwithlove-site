@@ -65,6 +65,21 @@ One of our best early levers, and it fits our kind, helpful personality.
   resource, then auto-DM it and invite them to the newsletter.
 - Never argue, never hard-sell, always kind and dignified.
 
+## Brand and promotion
+- We run a warm **brand account, no personal face** (owner decision).
+- **No gimmicks, ever** (owner decision). This is a tender subject. Earn attention
+  with warmth and a recognizable, beautiful look, never stunts.
+- Use a **consistent, recognizable carousel template** (cream, gold, blue, the
+  infinity-heart) and a predictable kind of value each post, so people recognize
+  an Again, With Love post in the feed.
+- **Promote each issue over three days:** tease the day before, announce the day
+  of, "in case you missed it" the day after. Do not fear repetition; most people
+  see none of your posts.
+- **Keep the subscribe link out of the post body** (it can cut reach). Link in
+  bio, plus comment-to-DM via a Meta-compliant tool (ManyChat, typefly).
+- **Give far more than you ask** (about three to one). Teasers to the newsletter
+  are fine, but never gate essential caregiver help behind a signup.
+
 ## Workflow (how you operate)
 1. Listen and plan: scan caregiver communities (see `SOURCING.md`) for what people
    are struggling with, and propose a short weekly plan.
