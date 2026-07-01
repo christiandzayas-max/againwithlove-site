@@ -37,15 +37,46 @@ promotions.)
    Doctor-Visit Prep Kit or reassurance-script cards).
 This makes the survey worth completing and gives an immediate win.
 
-## Social (start focused)
-- Pick ONE channel first and crack it, most likely Facebook (older-skewing, large
-  caregiver groups). Add Instagram once the first is working.
-- Post consistently. Lead with carousels. Use native formats per platform; do not
-  cross-post identical content.
+## Social (start focused, then diversify)
+- The email list is the durable asset. Algorithms change and accounts get banned
+  overnight, so treat social as rented and funnel everything to the owned
+  newsletter. Start focused on one channel, then diversify so we never depend on a
+  single platform.
+- Start with Facebook (older-skewing, large caregiver groups), then add Instagram.
+  Because both are Meta, you can create a carousel once and publish it to both
+  Facebook and Instagram together from Meta Business Suite. Tailor the caption if
+  useful; Instagram needs an image or video, not text-only.
+- Lead with carousels and simple static posts (a practical tip, "say this
+  instead," a tiny win, a plain research note). We are not doing video or B-roll
+  for now.
+- Make carousels worth lingering on (a real step-by-step, a short story). Content
+  that rewards reading time tends to get more reach.
 - Always end with a call to action (join the newsletter, or grab the lead magnet).
   Never leave an engaged reader with no next step.
+- Comment-to-DM lead magnet: invite people to comment a word ("CARE") to receive a
+  free resource, then auto-DM it and invite them to the newsletter.
 - Tasteful giveaways of a real resource are fine. Avoid spammy "tag five friends"
-  contest mechanics; they do not suit this audience.
+  mechanics; they do not suit this audience.
+
+## Engagement (how a small account gets discovered)
+With few followers, even great posts get little reach until you engage. This is one
+of our best early levers, and it fits our warm, helpful personality.
+- Comment genuinely and daily, like a kind friend, in caregiver groups and on
+  aligned accounts.
+- Comment on larger aligned accounts (dementia and Alzheimer's organizations,
+  caregiver creators) to reach their followers, who are exactly our people. Always
+  leave something genuinely helpful, never a self-promo.
+- Engage with peers in a similar size range too; it is a better mutual match.
+- Never argue, never hard-sell, always kind and dignified.
+
+## Cadence
+Consistency beats volume. A realistic, sustainable start:
+- Facebook: about 3 posts per week to begin, then adjust as we learn.
+- Instagram (once added): 2 to 3 posts per week, mostly the same carousels.
+- Newsletter: weekly.
+The drafting agent produces a batch on a set day each week, the owner approves, and
+approved posts are scheduled in Meta Business Suite (API publishing can come later,
+behind the same approval gate). Nothing posts unattended.
 
 ## The testimonial loop (real, permissioned social proof)
 - The satisfaction poll lives at the bottom of each issue (beehiiv's built-in
