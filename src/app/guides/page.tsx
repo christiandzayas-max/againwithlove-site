@@ -3,19 +3,19 @@ import Link from "next/link";
 import { getAllArticles } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Articles",
+  title: "Guides",
   description:
     "Practical, honest guidance for people caring for someone with dementia or Alzheimer's: everyday help, gentle scripts, and what the research really says.",
-  alternates: { canonical: "/articles" },
+  alternates: { canonical: "/guides" },
 };
 
-export default function ArticlesPage() {
-  const articles = getAllArticles();
+export default function GuidesPage() {
+  const guides = getAllArticles();
 
   return (
     <div className="section pb-16 pt-16 sm:pt-20">
       <div className="mx-auto max-w-3xl text-center">
-        <span className="eyebrow">Articles</span>
+        <span className="eyebrow">Guides</span>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           Guides and support for dementia caregivers
         </h1>
@@ -25,28 +25,28 @@ export default function ArticlesPage() {
         </p>
       </div>
 
-      {articles.length === 0 ? (
+      {guides.length === 0 ? (
         <p className="mx-auto mt-12 max-w-2xl text-center text-lg text-ink-soft">
-          New articles are on the way. In the meantime, join the newsletter for
+          New guides are on the way. In the meantime, join the newsletter for
           weekly help.
         </p>
       ) : (
         <ul className="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-2">
-          {articles.map((article) => (
-            <li key={article.slug} className="card p-7">
+          {guides.map((guide) => (
+            <li key={guide.slug} className="card p-7">
               <h2 className="text-xl font-semibold text-ink">
                 <Link
-                  href={`/articles/${article.slug}`}
+                  href={`/guides/${guide.slug}`}
                   className="transition hover:text-gold-deep"
                 >
-                  {article.title}
+                  {guide.title}
                 </Link>
               </h2>
               <p className="mt-3 leading-relaxed text-ink-soft">
-                {article.description}
+                {guide.description}
               </p>
               <Link
-                href={`/articles/${article.slug}`}
+                href={`/guides/${guide.slug}`}
                 className="mt-4 inline-block font-medium text-gold-deep transition hover:text-ink"
               >
                 Read more

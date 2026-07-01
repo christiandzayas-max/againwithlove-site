@@ -3,10 +3,10 @@ import { join } from "node:path";
 import matter from "gray-matter";
 import { marked } from "marked";
 
-// Articles are authored as markdown files in content/articles/*.md with
-// frontmatter (title, description, date, optional updated, author). This module
-// reads them at build time for the /articles hub and each /articles/[slug] page.
-const ARTICLES_DIR = join(process.cwd(), "content", "articles");
+// Guides are authored as markdown files in content/guides/*.md with frontmatter
+// (title, description, date, optional updated, author). This module reads them at
+// build time for the /guides hub and each /guides/[slug] page.
+const ARTICLES_DIR = join(process.cwd(), "content", "guides");
 
 export type ArticleMeta = {
   slug: string;

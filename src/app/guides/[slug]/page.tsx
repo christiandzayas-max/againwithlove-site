@@ -19,12 +19,12 @@ export function generateMetadata({
   return {
     title: meta.title,
     description: meta.description,
-    alternates: { canonical: `/articles/${meta.slug}` },
+    alternates: { canonical: `/guides/${meta.slug}` },
     openGraph: {
       title: meta.title,
       description: meta.description,
       type: "article",
-      url: `${SITE_URL}/articles/${meta.slug}`,
+      url: `${SITE_URL}/guides/${meta.slug}`,
     },
   };
 }
@@ -40,15 +40,11 @@ function formatDate(iso: string): string {
   });
 }
 
-export default function ArticlePage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default function GuidePage({ params }: { params: { slug: string } }) {
   const article = getArticle(params.slug);
   if (!article) notFound();
   const { meta, html } = article;
-  const url = `${SITE_URL}/articles/${meta.slug}`;
+  const url = `${SITE_URL}/guides/${meta.slug}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -66,10 +62,10 @@ export default function ArticlePage({
     <div className="section pb-16 pt-16 sm:pt-20">
       <article className="mx-auto max-w-2xl">
         <Link
-          href="/articles"
+          href="/guides"
           className="text-sm font-medium text-gold-deep transition hover:text-ink"
         >
-          &larr; All articles
+          &larr; All guides
         </Link>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-ink sm:text-4xl">
           {meta.title}
