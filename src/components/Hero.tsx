@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BeehiivSignup from "@/components/BeehiivSignup";
 import { BRAND_NAME, TAGLINE } from "@/lib/site";
 
 export default function Hero() {
@@ -28,24 +29,37 @@ export default function Hero() {
           {TAGLINE}
         </p>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          When a loved one living with dementia asks the same
-          anxious question again and again, Again, With Love lets them see and
-          hear your reassurance. Short messages you record once, ready whenever
-          they need comfort.
+          Support for families caring for someone with dementia. It starts with a
+          free weekly newsletter: practical help, honest research on prevention
+          and care, and a reminder that you are not alone.
         </p>
 
-        <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <Link href="/#how-it-works" className="btn-primary">
-            See how it works
-          </Link>
-          <Link href="/#stay-updated" className="btn-ghost">
-            Get launch updates
-          </Link>
+        {/* Newsletter signup: the primary call to action for now. */}
+        <div id="signup" className="mt-9 scroll-mt-24">
+          <BeehiivSignup />
+          <p className="mt-4 text-sm text-ink-soft/80">
+            Free. No spam. Unsubscribe any time. See our{" "}
+            <Link
+              href="/privacy"
+              className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
+            >
+              Privacy Policy
+            </Link>
+            .
+          </p>
         </div>
 
-        <p className="mt-6 text-sm text-ink-soft/80">
-          The app is in development and testing. It is not yet available to
-          download.
+        <p className="mx-auto mt-10 max-w-xl text-sm leading-relaxed text-ink-soft/80">
+          We are also building the Again, With Love app, which lets you record
+          short video and audio reassurance a loved one can play back anytime. It
+          is in development and coming later.{" "}
+          <Link
+            href="/#how-it-works"
+            className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
+          >
+            See how it will help
+          </Link>
+          .
         </p>
       </div>
     </section>

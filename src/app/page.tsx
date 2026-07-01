@@ -1,6 +1,4 @@
-import Link from "next/link";
 import Hero from "@/components/Hero";
-import BeehiivSignup from "@/components/BeehiivSignup";
 import { LEGAL_ENTITY } from "@/lib/site";
 
 // The anxious, repeated questions the app is designed to answer. These are
@@ -168,42 +166,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stay updated: beehiiv newsletter signup */}
-      <section
-        id="stay-updated"
-        aria-labelledby="stay-updated-title"
-        className="scroll-mt-24 bg-calm-soft/50 py-16 sm:py-20"
-      >
-        <div className="section">
-          <div className="card mx-auto max-w-2xl p-8 text-center sm:p-10">
-            <span className="eyebrow">Stay updated</span>
-            <h2
-              id="stay-updated-title"
-              className="mt-4 text-3xl font-bold tracking-tight text-ink"
-            >
-              Be the first to know
-            </h2>
-            <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-              We&apos;re getting Again, With Love ready for families. Join the
-              list for launch news and gentle, practical notes for caregivers,
-              sent about once a week.
-            </p>
-            <div className="mt-7">
-              <BeehiivSignup />
-            </div>
-            <p className="mt-4 text-sm text-ink-soft/80">
-              No spam. Unsubscribe any time. See our{" "}
-              <Link
-                href="/privacy"
-                className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
-              >
-                Privacy Policy
-              </Link>
-              .
-            </p>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
