@@ -68,15 +68,15 @@ their own words in the issue creates belonging. Those three things, more than an
 single article, are what keep people subscribed.
 
 ## Monetization
-No paid tier, and the newsletter is not an ad vehicle: no third-party ads, no
-sponsorships, and no ad network, on the first issues and beyond (owner decision),
-so it stays a pure, trusted value channel for a vulnerable audience.
+No paid tier. No ads at the beginning: no third-party ads, no sponsorships, and no
+ad network for at least the first 20+ issues, so the newsletter earns trust as a
+pure value channel for a vulnerable audience before any monetization. Revisit
+after that, app-first.
 - **The app, first.** The newsletter builds trust and points caregivers to the
   Again, With Love app.
-- **Affiliates: only if later approved.** If used at all, only as genuinely useful,
-  clearly disclosed recommendations woven into helpful content (never as ads or
-  promotions), with an FTC disclosure and never a medical claim. Open question:
-  confirm whether affiliates are in scope given the no-promotions stance.
+- **Affiliates: a possible later option.** If used at all, only as genuinely
+  useful, clearly disclosed recommendations woven into helpful content (never as
+  ads or promotions), with an FTC disclosure and never a medical claim.
 
 See `GROWTH.md` for the full growth playbook and the pre-launch plan.
 

@@ -4,13 +4,13 @@ How we grow Again, With Love the right way for a sensitive audience. Distilled
 from a beehiiv growth session and adapted to our guardrails. Pairs with
 `PLAN.md`, `VOICE.md`, and `SOURCING.md`.
 
-## First principle: the newsletter is not an ad vehicle
-No third-party ads, no sponsorships, and no ad network in the newsletter, on the
-first issues and beyond (owner decision). It stays a pure, trusted value channel
-for a vulnerable audience. Monetization leans on the app first. (Affiliates: only
-if later approved, and only as genuinely useful, clearly disclosed recommendations
-woven into helpful content, never as ads or promotions. Owner to confirm whether
-affiliates are in scope at all.)
+## First principle: earn trust before any monetization
+No ads at the beginning: no third-party ads, no sponsorships, and no ad network,
+for at least the first 20+ issues, so we build a pure, trusted value channel for a
+vulnerable audience first. Revisit monetization only after that, and keep it
+app-first. (Affiliates: a possible later option, and only as genuinely useful,
+clearly disclosed recommendations woven into helpful content, never as ads or
+promotions.)
 
 ## Pre-launch (do this before going public)
 - [ ] Write about 10 issues in private first (owner-approved), so launch day has
@@ -86,6 +86,6 @@ This makes the survey worth completing and gives an immediate win.
   the site.
 
 ## Ads (later, and carefully)
-- A later lever, not for pre-launch. Google Search ads on high-intent queries
-  ("dementia caregiver help") are promising.
+- A later lever, not for pre-launch or the first 20+ issues. Google Search ads on
+  high-intent queries ("dementia caregiver help") are promising.
 - Never feed health-adjacent audience signals to ad platforms. Sensitivity first.
