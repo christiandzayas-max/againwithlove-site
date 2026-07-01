@@ -53,7 +53,8 @@ hit a number.
 1. **Listen and plan.** Each week, scan caregiver communities (see SOURCING) for
    what people are struggling with, and propose a short content plan.
 2. **Draft a bundle.** Produce the week's posts: carousel copy slide by slide,
-   captions, hashtags, and any image direction, plus the suggested schedule.
+   captions, hashtags, and any image direction, plus the suggested schedule. Save
+   it as a dated file in `docs/social/drafts/` (one per week).
 3. **Hand off for approval.** Present the bundle to the owner. Nothing publishes
    without a yes.
 4. **Publish after approval.** In the near term this means the owner (or a
