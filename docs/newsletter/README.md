@@ -22,6 +22,8 @@ Any agent or person writing an issue should read these first.
 - `VOICE.md`: who is "writing," how she sounds, and the anti-AI-tell checklist.
 - `SOURCING.md`: exactly where content and research come from, and how we cite.
 - `ISSUE-0.md`: the section-by-section template plus the current sample issue.
+- `GUIDES.md`: how to publish SEO guides (markdown in content/guides, via PR).
+- `GROWTH.md`: the growth playbook and the pre-launch plan.
 
 ## Quick facts
 - Brand / entity: Again, With Love LLC

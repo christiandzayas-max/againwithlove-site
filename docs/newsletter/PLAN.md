@@ -68,14 +68,17 @@ their own words in the issue creates belonging. Those three things, more than an
 single article, are what keep people subscribed.
 
 ## Monetization
-No paid tier. Two honest paths:
-- **The app.** The newsletter builds trust and points caregivers to Again, With
-  Love.
-- **Affiliates, tastefully.** Genuinely useful products (safety items, books,
-  dementia-friendly aids, respite services). Rules: only recommend what we would
-  recommend for free, always include a clear FTC disclosure ("we may earn a
-  commission, at no cost to you"), never a medical claim, never let it crowd out
-  the value.
+No paid tier, and the newsletter is not an ad vehicle: no third-party ads, no
+sponsorships, and no ad network, on the first issues and beyond (owner decision),
+so it stays a pure, trusted value channel for a vulnerable audience.
+- **The app, first.** The newsletter builds trust and points caregivers to the
+  Again, With Love app.
+- **Affiliates: only if later approved.** If used at all, only as genuinely useful,
+  clearly disclosed recommendations woven into helpful content (never as ads or
+  promotions), with an FTC disclosure and never a medical claim. Open question:
+  confirm whether affiliates are in scope given the no-promotions stance.
+
+See `GROWTH.md` for the full growth playbook and the pre-launch plan.
 
 ## Traffic engine (how people find us)
 Caregivers are not on X. We write about the same topics for free where they
