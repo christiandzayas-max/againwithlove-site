@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import { CONTACT_EMAIL, LEGAL_ENTITY } from "@/lib/site";
 
 // The anxious, repeated questions the app is designed to answer. These are
-// illustrative examples of the experience — not quotes or claims.
+// illustrative examples of the experience, not quotes or claims.
 const EXAMPLE_QUESTIONS = [
   "Where are you?",
   "Am I okay?",
@@ -15,12 +15,12 @@ const STEPS = [
   {
     n: "1",
     title: "Record once, in your own voice",
-    body: "In the app, record short video or audio answers to the questions your loved one asks most — calm, familiar, and in your own face and voice.",
+    body: "In the app, record short video or audio answers to the questions your loved one asks most, calm and familiar, in your own face and voice.",
   },
   {
     n: "2",
     title: "Hand them the device",
-    body: "Switch into a simple, full-screen mode with big, clear buttons. No menus, no settings to get lost in — it stays gently locked to this one screen.",
+    body: "Switch into a simple, full-screen mode with big, clear buttons. No menus, no settings to get lost in. It stays gently locked to this one screen.",
   },
   {
     n: "3",
@@ -71,7 +71,7 @@ export default function HomePage() {
           </h2>
           <p className="mt-5 text-lg leading-relaxed text-ink-soft">
             With dementia, short-term memory can fade while feelings stay. A
-            loved one may ask the same anxious question many times an hour —
+            loved one may ask the same anxious question many times an hour,
             because in that moment, they truly don&apos;t remember the last
             answer. Reassuring them each time is loving work, and it can wear you
             down.
@@ -91,7 +91,7 @@ export default function HomePage() {
 
         <p className="mx-auto mt-10 max-w-2xl text-center text-lg leading-relaxed text-ink-soft">
           Again, With Love doesn&apos;t replace you. It carries your reassurance
-          for the moments you can&apos;t be there in person — or when you simply
+          for the moments you can&apos;t be there in person, or when you simply
           need to take a breath.
         </p>
       </section>
@@ -148,14 +148,14 @@ export default function HomePage() {
           </h2>
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-ink-soft">
             <p>
-              Again, With Love is built by {LEGAL_ENTITY} — a solo,
+              Again, With Love is built by {LEGAL_ENTITY}, a solo,
               family-inspired effort, not a big corporation. It began with a
               simple wish: to help a loved one feel safe, even in the hardest
               moments of memory loss.
             </p>
             <p>
               We build carefully and honestly. Again, With Love is a caregiving
-              aid, not a medical device or treatment — so we don&apos;t make
+              aid, not a medical device or treatment, so we don&apos;t make
               medical claims. We treat the people who use this app, and the
               families who love them, with respect and dignity.
             </p>
@@ -167,7 +167,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stay updated — newsletter spot (no live capture yet) */}
+      {/* Stay updated: newsletter spot (no live capture yet) */}
       <section
         id="stay-updated"
         aria-labelledby="stay-updated-title"

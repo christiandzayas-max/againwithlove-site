@@ -44,7 +44,7 @@ export default function DeleteAccountPage() {
               </p>
               <p>
                 We&apos;ll confirm the request comes from your account, delete
-                your data, and email you when it&apos;s done — normally within 30
+                your data, and email you when it&apos;s done, normally within 30
                 days.
               </p>
             </div>

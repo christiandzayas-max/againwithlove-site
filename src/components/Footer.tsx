@@ -45,7 +45,7 @@ export default function Footer() {
 
         <div className="mt-10 border-t border-hairline pt-6">
           <p className="text-sm leading-relaxed text-ink-soft/90">
-            {/* No medical claims — Again, With Love is a caregiving aid, not a
+            {/* No medical claims. Again, With Love is a caregiving aid, not a
                 medical device, treatment, or a substitute for professional care. */}
             Again, With Love is a caregiving support tool. It is not a medical
             device, medical advice, or a substitute for professional medical

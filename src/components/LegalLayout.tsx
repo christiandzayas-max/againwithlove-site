@@ -1,4 +1,4 @@
-// Shared shell for /privacy and /terms — a clean, credible, readable legal page.
+// Shared shell for /privacy and /terms: a clean, credible, readable legal page.
 export default function LegalLayout({
   title,
   lastUpdated,

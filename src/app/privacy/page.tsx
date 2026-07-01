@@ -6,7 +6,7 @@ import { CONTACT_EMAIL, LEGAL_ENTITY, BRAND_NAME } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How Again, With Love collects, uses, stores, and protects your information — and how to access or delete it.",
+    "How Again, With Love collects, uses, stores, and protects your information, and how to access or delete it.",
   alternates: { canonical: "/privacy" },
 };
 
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
           </li>
           <li>
             <strong>Profiles you create.</strong> You can add a profile for the
-            person in your care — typically just a first name — and labels for
+            person in your care (typically just a first name) and labels for
             the reassurance buttons you set up.
           </li>
           <li>
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
           <li>
             <strong>Usage within the app.</strong> Basic records of which
             reassurance buttons are played and when, so you can see what&apos;s
-            being used. This stays in your account — it is not sent to any
+            being used. This stays in your account. It is not sent to any
             advertising or analytics company.
           </li>
           <li>
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
 
       <LegalSection heading="How information is stored and shared">
         <p>
-          We use Google&apos;s Firebase platform to run the app — specifically
+          We use Google&apos;s Firebase platform to run the app, specifically
           Firebase Authentication, Cloud Firestore, and Cloud Storage. Your
           account information, profiles, button labels, recordings, and usage
           records are stored on Google&apos;s servers and processed by Google as
@@ -146,8 +146,8 @@ export default function PrivacyPage() {
         <p>
           We do not sell or rent your personal information, and we do not share
           it with advertisers. We may disclose information if required by law, to
-          protect someone&apos;s safety, or as part of a future business transfer
-          — in which case we&apos;ll require the recipient to honor this policy.
+          protect someone&apos;s safety, or as part of a future business transfer,
+          in which case we&apos;ll require the recipient to honor this policy.
         </p>
       </LegalSection>
 

@@ -40,7 +40,7 @@ body {
     @apply rounded-2xl border border-hairline bg-surface shadow-card;
   }
 
-  /* Primary call-to-action — dark ink text on warm gold for strong contrast. */
+  /* Primary call-to-action. Dark ink text on warm gold for strong contrast. */
   .btn-primary {
     @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl
       bg-gold px-6 py-3 text-base font-semibold text-ink shadow-soft transition

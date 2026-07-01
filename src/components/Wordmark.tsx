@@ -7,7 +7,7 @@ export default function Wordmark({ className = "" }: { className?: string }) {
   return (
     <Link
       href="/"
-      aria-label={`${BRAND_NAME} — home`}
+      aria-label={`${BRAND_NAME} home`}
       className={`group inline-flex items-center gap-2.5 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-deep focus-visible:ring-offset-2 focus-visible:ring-offset-canvas ${className}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}

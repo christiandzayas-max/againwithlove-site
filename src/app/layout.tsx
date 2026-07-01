@@ -7,7 +7,7 @@ import { SITE_URL, BRAND_NAME } from "@/lib/site";
 
 const title = `${BRAND_NAME} | Reassurance for dementia & Alzheimer's caregivers`;
 const description =
-  "Again, With Love helps family caregivers comfort a loved one living with dementia or Alzheimer's — using short, pre-recorded video and audio messages in the caregiver's own voice.";
+  "Again, With Love helps family caregivers comfort a loved one living with dementia and Alzheimer's, using short, pre-recorded video and audio messages in the caregiver's own voice.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

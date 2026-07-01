@@ -28,9 +28,9 @@ export default function Hero() {
           {TAGLINE}
         </p>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          When a loved one living with dementia or Alzheimer&apos;s asks the same
+          When a loved one living with dementia asks the same
           anxious question again and again, Again, With Love lets them see and
-          hear your reassurance — short messages you record once, ready whenever
+          hear your reassurance. Short messages you record once, ready whenever
           they need comfort.
         </p>
 

@@ -1,11 +1,11 @@
-// Canonical site URL — single source of truth.
+// Canonical site URL. Single source of truth.
 //
 // Every canonical tag, Open Graph URL, sitemap entry, robots directive, and
 // JSON-LD value is built from this. It MUST point at the final, non-redirecting
 // host. againwithlove.com is registered at Namecheap; the apex is the intended
 // canonical. ⚠️ Before launch, confirm the live apex<->www redirect direction
 // in Vercel and make this value match the destination (the TBL site shipped a
-// www/apex canonical mismatch once — don't repeat it).
+// www/apex canonical mismatch once, don't repeat it).
 //
 // Override via NEXT_PUBLIC_SITE_URL only if the canonical host changes (and
 // update the Vercel domain redirect to match). NEXT_PUBLIC_* bakes at build

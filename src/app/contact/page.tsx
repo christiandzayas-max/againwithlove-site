@@ -5,7 +5,7 @@ import { CONTACT_EMAIL } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Again, With Love — questions, privacy requests, or help with the app. Email us at hello@againwithlove.com.",
+    "Get in touch with Again, With Love. Questions, privacy requests, or help with the app. Email us at hello@againwithlove.com.",
   alternates: { canonical: "/contact" },
 };
 
@@ -42,7 +42,7 @@ export default function ContactPage() {
         <ul className="mt-4 space-y-3 prose-legal">
           <li>Questions about the app or how it works.</li>
           <li>
-            Privacy requests — to access, correct, or delete your information.
+            Privacy requests: to access, correct, or delete your information.
             See our{" "}
             <Link
               href="/privacy"
@@ -53,7 +53,7 @@ export default function ContactPage() {
             .
           </li>
           <li>
-            Deleting your account and data — see{" "}
+            Deleting your account and data. See{" "}
             <Link
               href="/delete-account"
               className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
@@ -62,7 +62,7 @@ export default function ContactPage() {
             </Link>
             .
           </li>
-          <li>Anything else on your mind — we&apos;re glad to help.</li>
+          <li>Anything else on your mind. We&apos;re glad to help.</li>
         </ul>
       </div>
     </div>

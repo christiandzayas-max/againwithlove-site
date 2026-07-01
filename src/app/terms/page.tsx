@@ -59,7 +59,7 @@ export default function TermsPage() {
           You keep ownership of the recordings, images, names, and other content
           you add (&ldquo;Your Content&rdquo;). You grant us a limited license to
           store, process, and display Your Content solely to provide the Service
-          to you — for example, to save your recordings and play them back in the
+          to you, for example to save your recordings and play them back in the
           app.
         </p>
         <p>
