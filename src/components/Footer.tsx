@@ -17,6 +17,18 @@ export default function Footer() {
             aria-label="Footer"
           >
             <Link
+              href="/app"
+              className="text-ink-soft transition hover:text-ink"
+            >
+              The App
+            </Link>
+            <Link
+              href="/#signup"
+              className="text-ink-soft transition hover:text-ink"
+            >
+              Newsletter
+            </Link>
+            <Link
               href="/privacy"
               className="text-ink-soft transition hover:text-ink"
             >

@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     page("/", 1.0, "monthly"),
+    page("/app", 0.8, "monthly"),
     page("/contact", 0.5, "yearly"),
     page("/delete-account", 0.4, "yearly"),
     page("/privacy", 0.3, "yearly"),

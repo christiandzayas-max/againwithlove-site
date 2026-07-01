@@ -48,19 +48,6 @@ export default function Hero() {
             .
           </p>
         </div>
-
-        <p className="mx-auto mt-10 max-w-xl text-sm leading-relaxed text-ink-soft/80">
-          We are also building the Again, With Love app, which lets you record
-          short video and audio reassurance a loved one can play back anytime. It
-          is in development and coming later.{" "}
-          <Link
-            href="/#how-it-works"
-            className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
-          >
-            See how it will help
-          </Link>
-          .
-        </p>
       </div>
     </section>
   );
