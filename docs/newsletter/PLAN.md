@@ -1,9 +1,17 @@
 # Newsletter Plan
 
 ## What this is
-A weekly email for family caregivers of people living with dementia or
-Alzheimer's. It exists to help caregivers in real, practical ways, to build
-trust for the Again, With Love brand, and to gently grow the app's audience.
+A weekly email for family caregivers of people living with dementia. It exists to
+help caregivers in real, practical ways, to build trust for the Again, With Love
+brand, and to gently grow the app's audience.
+
+## A note on terms (we are an authority, so we write like one)
+Use **dementia** as the umbrella term. Alzheimer's is the most common cause of
+dementia, not a separate thing, so we do not write "dementia or Alzheimer's" as
+if they were two categories. When it is genuinely useful, we can name Alzheimer's
+as the most common *type* of dementia. (The public website may still use
+"Alzheimer's" in a few SEO spots, since many caregivers search that word without
+knowing it is a dementia. That is a discovery choice, not our house style.)
 
 ## Principles
 - **Value first, every week.** If an issue would not help a tired caregiver, it
@@ -24,27 +32,40 @@ a hard week.
 The masthead brand wraps the whole issue: it opens with **Again,** and closes
 with **With love,**.
 
-1. **Again,** — a short, human opening in the writer's voice. Warm, specific,
-   real.
-2. **On the Horizon** — the Research Radar. One or two credible, plainly
-   explained research items, each labeled by evidence strength, each with an
-   honest "what this means for you today." Our signature. See `SOURCING.md`.
-3. **This Week's Toolkit** — the tangible asset (a script, checklist, or
-   printable; an AI tool every few weeks). Several tie back to the app (for
-   example, a reassurance script to record).
-4. **One Thing That Helps** — a single practical caregiving tip. Concrete, kind,
+1. **Again,** the human opening in the writer's voice. Warm, specific, real.
+2. **On the Horizon** the Research Radar. One or two credible, plainly explained
+   research items, each labeled by evidence strength, each with an honest "what
+   this means for you today." Our signature. See `SOURCING.md`.
+3. **This Week's Toolkit** the tangible asset (a script, checklist, or printable;
+   an AI tool every few weeks). Several tie back to the app (for example, a
+   reassurance script to record).
+4. **One Thing That Helps** a single practical caregiving tip. Concrete, kind,
    never a medical claim.
-5. **For You, Too** — support for the caregiver themselves (burnout, guilt,
-   respite, grief). Most resources forget the caregiver. We do not.
-6. **From the Circle** — a real reader tip or story, used only with permission,
-   plus the Question of the Week to invite replies.
-7. **Brain Break** — a light riddle or a moment of levity. Relief from the
-   weight.
-8. **Pass It On** — a one-line forward ask and the referral link.
-9. **With love,** — a warm close and a one-line teaser for next week.
+5. **For You, Too** support for the caregiver themselves (burnout, guilt, respite,
+   grief). Most resources forget the caregiver. We do not.
+6. **From the Circle** the community loop, and our main churn engine. Every week
+   it opens with a **callback** ("Last week you shared...", featuring two or three
+   real replies, used only with permission) and closes with **this week's
+   prompt**. The prompt rotates so we learn what pulls the most replies: "Next
+   time they ask" (share the line that calms your person), "A tiny win", "Say this
+   instead", "Keep this line", and "From one caregiver" (advice for someone just
+   starting).
+7. **A Little Air** a short restorative gift for the reader. It rotates through a
+   30-second nervous-system reset, a one-minute calming exercise, one genuinely
+   lovely or funny link, or a memory prompt about their own life (which also earns
+   a reply). This replaces the old riddle idea, which felt too light for this
+   audience.
+8. **Pass It On** a one-line forward ask and the referral link.
+9. **With love,** the sign-off ("The Again, With Love Team") and a one-line teaser
+   for next week.
 
 Rotating in: a quiz every four to six weeks, reader spotlights, and seasonal
 issues (holidays are especially hard for these families).
+
+**Retention is built into the structure.** The weekly callback closes an open
+loop, the reply prompt and the P.S. teaser open new ones, and readers seeing
+their own words in the issue creates belonging. Those three things, more than any
+single article, are what keep people subscribed.
 
 ## Monetization
 No paid tier. Two honest paths:
@@ -69,11 +90,10 @@ Each issue is repurposed into several free posts and one article by the pipeline
 below.
 
 ## Growth
-- **Pre-launch first.** Build a real list before the first true send, so the
-  first issue lands with an audience, not into silence.
+- **Pre-launch first.** Build a real list before the first true send, so the first
+  issue lands with an audience, not into silence.
 - **Referral program (beehiiv native)** with tangible milestone rewards (for
-  example, a "Doctor Visit Prep Kit" PDF, then a full "Caregiver Starter
-  Binder").
+  example, a "Doctor Visit Prep Kit" PDF, then a full "Caregiver Starter Binder").
 - **Quizzes as lead magnets** (for example, "How dementia-friendly is your home?
   A 12-point check"). Shareable, and they grow the list.
 - **Tangible subject lines** (for example, "The 3-line script for 'When are you

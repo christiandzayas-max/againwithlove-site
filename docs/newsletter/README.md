@@ -1,7 +1,8 @@
-# Again, With Love — Newsletter (working docs)
+# Again, With Love: Newsletter (working docs)
 
 This folder is the source of truth for the **Again, With Love** newsletter: a
-weekly note for people caring for someone with dementia or Alzheimer's.
+weekly note for people caring for someone with dementia. (We use "dementia" as
+the umbrella term; Alzheimer's is the most common type, not a separate thing.)
 
 Any agent or person writing an issue should read these first.
 
@@ -16,15 +17,15 @@ Any agent or person writing an issue should read these first.
    not diagnose, treat, or promise outcomes. We never sell false hope.
 
 ## Files
-- `PLAN.md` — strategy, the weekly structure, monetization, growth, and the
+- `PLAN.md`: strategy, the weekly structure, monetization, growth, and the
   agent pipeline that produces each issue.
-- `VOICE.md` — who is "writing," how she sounds, and the anti-AI-tell checklist.
-- `SOURCING.md` — exactly where content and research come from, and how we cite.
-- `ISSUE-0.md` — the section-by-section template plus the current sample issue.
+- `VOICE.md`: who is "writing," how she sounds, and the anti-AI-tell checklist.
+- `SOURCING.md`: exactly where content and research come from, and how we cite.
+- `ISSUE-0.md`: the section-by-section template plus the current sample issue.
 
 ## Quick facts
 - Brand / entity: Again, With Love LLC
 - Platform: beehiiv (free; no paid tier)
-- Audience: family caregivers of people with dementia or Alzheimer's
+- Audience: family caregivers of people with dementia
 - Monetization: drive the Again, With Love app + tasteful, disclosed affiliates
 - Cadence: weekly, after a pre-launch list-building phase

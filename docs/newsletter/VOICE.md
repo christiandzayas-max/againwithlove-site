@@ -25,10 +25,15 @@ Important: the narrator has this background, but the reader may be anyone. Keep 
 **inclusive and relatable to every caregiver**. The voice is specific; the welcome
 is wide.
 
-Open question for the owner: who signs the issue? Options are the brand ("With
-love, Again, With Love"), the owner's real name, or a named editor persona. Do
-not invent a fake person's name until this is decided. The sample uses a
-placeholder.
+Who signs the issue: **"With love, The Again, With Love Team."** The issue still
+reads in one warm, personal voice ("I"), but it is signed by the team. This keeps
+it human and authoritative without inventing a fake individual.
+
+## We are an authority, so we say "dementia"
+Use **dementia** as the umbrella term. Alzheimer's is the most common cause of
+dementia, so writing "dementia or Alzheimer's" reads like we think they are two
+separate things. We do not. Name Alzheimer's only when it is useful, and name it
+correctly, as the most common *type* of dementia.
 
 ## How it reads on the page
 - Short paragraphs. One to four sentences. Lots of white space.

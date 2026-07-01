@@ -15,9 +15,13 @@ section.
 - **One Thing That Helps** a single practical tip with a tiny concrete example.
 - **For You, Too** support for the caregiver. Name the feeling, give one small
   permission or step.
-- **From the Circle** a real, permission-based reader tip, plus the Question of
-  the Week.
-- **Brain Break** a light riddle or a small moment of levity.
+- **From the Circle** the community loop. Open with a callback ("Last week you
+  shared...", two or three real replies used with permission), then close with
+  this week's rotating prompt ("Next time they ask", "A tiny win", "Say this
+  instead", "Keep this line", "From one caregiver").
+- **A Little Air** a short restorative gift for the reader: a 30-second
+  nervous-system reset, a one-minute calming exercise, one lovely or funny link,
+  or a memory prompt about their own life. Rotate to see what lands.
 - **Pass It On** a one-line forward ask and the referral link.
 - **With love,** the sign-off and a one-line teaser for next week.
 - **Footer** entity name, unsubscribe, and why they are receiving it.
@@ -35,9 +39,9 @@ lunch. And you answer again, softly, because to her it is the first time, and th
 worry is real every single time.
 
 That moment is the whole reason we are here. Welcome to Again, With Love, a weekly
-note for anyone caring for someone with dementia or Alzheimer's. Every week I will
-bring you one thing you can actually use, honest news about research, and a
-reminder that you are not doing this alone.
+note for anyone caring for someone with dementia. Every week I will bring you one
+thing you can actually use, honest news about research, and a reminder that you
+are not doing this alone.
 
 ### On the Horizon
 *(Illustrative. In real issues the Research Radar fills this with verified,
@@ -80,20 +84,23 @@ this week: take five minutes that belong only to you. Coffee on the patio. One
 song, loud. A door closed for a quiet minute. You cannot pour from an empty cup.
 
 ### From the Circle
-This is where a real caregiver's tip will live each week. So let me ask you: what
-is the one question your loved one asks the most? Hit reply and tell me. Your
-answer may help another family next week, and it helps me know what to write.
+Starting next issue, this is where I open with "Last week you shared..." and
+feature what you told me (only ever with your okay). Since this is our first one,
+let me just ask: what is the one question your loved one asks the most? Hit reply
+and tell me. Your answer may help another family next week, and it tells me what
+to write.
 
-### Brain Break
-A little breather. I have keys but open no locks. I have space but no room. You
-can go in, but you cannot go inside. What am I? (Answer next week.)
+### A Little Air
+Right now, wherever you are sitting: breathe in slowly through your nose, then sip
+in a little more air on top, then let it out long and slow. Do that three times.
+That is the whole assignment. You are allowed to feel a little better.
 
 ### Pass It On
 Know someone carrying this quietly? Forward this to one caregiver who could use it
 today. That is how we find the people we are here for. [referral link]
 
 ### With love,
-[signature to be decided: the brand, the owner's name, or a named editor]
+The Again, With Love Team
 
 P.S. Next week: the five-minute wind-down routine for hard evenings, plus the
 first real find from the Research Radar.
