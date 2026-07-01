@@ -50,11 +50,11 @@ body {
       disabled:opacity-50;
   }
 
-  /* Secondary / ghost button. */
+  /* Secondary / ghost button (transparent, not white). */
   .btn-ghost {
     @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl
-      border border-hairline bg-surface px-6 py-3 text-base font-medium text-ink
-      transition hover:border-gold/60 hover:bg-surface-soft focus:outline-none
+      border border-hairline bg-transparent px-6 py-3 text-base font-medium text-ink
+      transition hover:border-gold/60 hover:bg-ink/5 focus:outline-none
       focus-visible:ring-2 focus-visible:ring-gold-deep focus-visible:ring-offset-2
       focus-visible:ring-offset-canvas;
   }

@@ -30,7 +30,7 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <Link href="/#signup" className="btn-ghost px-5 py-2 text-sm">
+          <Link href="/#signup" className="btn-primary px-5 py-2 text-sm">
             Join the newsletter
           </Link>
         </nav>
@@ -87,7 +87,7 @@ export default function Header() {
             <Link
               href="/#signup"
               onClick={() => setOpen(false)}
-              className="btn-ghost mt-2"
+              className="btn-primary mt-2"
             >
               Join the newsletter
             </Link>
