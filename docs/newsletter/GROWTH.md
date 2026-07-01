@@ -27,6 +27,8 @@ promotions.)
       spouse, or someone else; roughly what stage). Keep it minimal and disclosed,
       since this is sensitive data. Use it to tailor content and, later, segment.
 - [ ] Add a "how was today's issue?" prompt at the bottom of each issue.
+- [ ] Add a gentle unsubscribe survey ("what made this not a fit?"), so leaving
+      still teaches us something. A signal like "too long" guides the writing.
 - Weight feedback toward actual caregivers. Safely ignore off-target feedback so
   we do not drift from the people we serve.
 
@@ -131,20 +133,49 @@ streak.
 - Reputable partners only. Never miracle-cure or supplement sellers.
 
 ## Signup and landing pages
-- Minimal fields (email only); collect more later via the survey. (Already done.)
-- Content first, then ask: our Guides end with a newsletter CTA. A gentle popup on
-  guide pages is fine. Do NOT gate caregiver help behind a subscription.
-- Clear value proposition front and center, real social proof (once gathered),
-  polished visuals, and test the copy.
+Our homepage doubles as the signup page. Keep it a calm, single-action page.
+- **Lead with one clear outcome, in our voice.** Not "get smarter," but what a
+  caregiver actually wants: the words for a hard moment, a calmer evening, feeling
+  less alone, and permission to care for themselves too. Put that outcome front and
+  center, above the fold.
+- **One action above the fold.** Email only, one obvious button, no forced scroll
+  to subscribe. Collect more later via the survey (already done).
+- **Speak straight to them (relevancy).** Name the situation plainly: caring for a
+  parent, a spouse, or someone they love as their memory changes. A reader should
+  feel "this is for me" in the first line.
+- **Reader first, us second.** Say what they get, then a small note of who we are.
+  Never open with "we are the best."
+- **Low effort, easy to read.** Short lines (two or three at a time), generous
+  white space, two to four colors, big readable type, and strong contrast. Most
+  visitors are on a phone, and many are older, so design mobile-first and never make
+  anyone squint.
+- **Match the promise (no bait-and-switch).** Whatever brought someone here (a
+  guide, a post, a lead magnet) should match what the page says. Honesty, not a
+  hook that under-delivers.
+- **Popups come after.** Any popup fires after someone subscribes, or lives only on
+  Guides pages. Never gate caregiver help behind a subscription.
+- **Social proof only when it is real and strong.** Weak or generic testimonials
+  can actually lower signups and clutter a simple page, so we skip them until we
+  have genuine, permissioned proof worth showing (see the testimonial loop). Put
+  specificity in what we cover instead.
+- **Fast and consistent.** A page that loads instantly and matches its source keeps
+  people from bouncing. (Our static site on Vercel is already fast.)
+- **Test copy over time, simply.** Try one clear outcome line for a couple of
+  weeks, then another, and keep the winner. No third-party session-recording or
+  heatmap trackers on this health-adjacent site (see Measurement).
 
 ## Measurement (with our privacy stance)
 - Tag outbound social and partner links with UTM parameters, and use beehiiv's
   analytics, to find our best sources and double down.
 - Judge content quality by engagement rate, not just reach: (likes + comments +
   shares + saves) divided by followers, tracked over time.
+- Chase the right subscribers, not the biggest number. A real caregiver who reads
+  and replies is worth far more than a cheap signup who never opens. Watch who
+  actually stays and engages, not just how many join.
 - Keep the no-third-party-tracker stance on the site itself: no ad or retargeting
-  pixels on a health-adjacent site. UTMs on outbound links do not add trackers to
-  the site.
+  pixels, and no session-recording or heatmap tools (for example Microsoft
+  Clarity), on a health-adjacent site. UTMs on outbound links do not add trackers
+  to the site.
 
 ## Ads (later, and carefully)
 - A later lever, not for pre-launch or the first 20+ issues. Google Search ads on

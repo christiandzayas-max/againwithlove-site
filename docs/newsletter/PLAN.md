@@ -21,6 +21,10 @@ knowing it is a dementia. That is a discovery choice, not our house style.)
   as a bonus, not as the weekly anchor.)
 - **Tangible when it fits.** People value a thing they can hold: a script, a
   checklist, a printable. Lead with those in the subject line.
+- **Short and scannable.** For a tired, busy, often older reader, keep each issue
+  brief and easy to skim. There is no ideal length, but lean short, and mind email
+  clipping (Gmail cuts off long emails), so the issue is never cut before the
+  sign-off.
 
 ## Audience
 Adult family caregivers, often women, often 45 to 70, frequently caring for a

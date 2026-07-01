@@ -28,16 +28,16 @@ export default function Hero() {
         <p className="mx-auto mt-4 max-w-2xl text-xl text-ink-soft sm:text-2xl">
           {TAGLINE}
         </p>
-        <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Support for families caring for someone with dementia. It starts with a
-          free weekly newsletter: practical help, honest research on prevention
-          and care, and a reminder that you are not alone.
+        <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-ink-soft sm:text-xl">
+          A free weekly note for families caring for someone with dementia.
+          Practical help for the hard moments, honest research you can trust, and
+          the reminder that you are not alone.
         </p>
 
         {/* Newsletter signup: the primary call to action for now. */}
         <div id="signup" className="mt-9 scroll-mt-24">
           <BeehiivSignup />
-          <p className="mt-4 text-sm text-ink-soft/80">
+          <p className="mt-4 text-[0.95rem] text-ink-soft">
             Free. No spam. Unsubscribe any time. See our{" "}
             <Link
               href="/privacy"
