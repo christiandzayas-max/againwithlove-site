@@ -151,6 +151,25 @@ export default function PrivacyPage() {
         </p>
       </LegalSection>
 
+      <LegalSection heading="Newsletter signup">
+        <p>
+          If you subscribe to our newsletter on this website, we collect your
+          email address (and your name, if you provide it) to send you the
+          newsletter and occasional updates. We use beehiiv, our newsletter
+          platform, to store this and send the emails on our behalf. You can
+          unsubscribe at any time using the link at the bottom of any email. See{" "}
+          <a
+            href="https://www.beehiiv.com/privacy"
+            className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            beehiiv&apos;s privacy policy
+          </a>
+          . We do not sell your email address.
+        </p>
+      </LegalSection>
+
       <LegalSection heading="Children's privacy">
         <p>
           Again, With Love is intended for adult caregivers and is not directed

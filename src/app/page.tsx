@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
-import { CONTACT_EMAIL, LEGAL_ENTITY } from "@/lib/site";
+import BeehiivSignup from "@/components/BeehiivSignup";
+import { LEGAL_ENTITY } from "@/lib/site";
 
 // The anxious, repeated questions the app is designed to answer. These are
 // illustrative examples of the experience, not quotes or claims.
@@ -167,7 +168,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stay updated: newsletter spot (no live capture yet) */}
+      {/* Stay updated: beehiiv newsletter signup */}
       <section
         id="stay-updated"
         aria-labelledby="stay-updated-title"
@@ -183,25 +184,23 @@ export default function HomePage() {
               Be the first to know
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-              We&apos;re getting Again, With Love ready for families. A newsletter
-              with launch news and gentle, practical notes for caregivers is on
-              the way.
-            </p>
-            <p className="mt-4 leading-relaxed text-ink-soft">
-              In the meantime, reach us any time at{" "}
-              <a
-                href={`mailto:${CONTACT_EMAIL}?subject=Keep%20me%20updated`}
-                className="font-semibold text-gold-deep underline underline-offset-2 hover:text-ink"
-              >
-                {CONTACT_EMAIL}
-              </a>{" "}
-              and we&apos;ll let you know when it launches.
+              We&apos;re getting Again, With Love ready for families. Join the
+              list for launch news and gentle, practical notes for caregivers,
+              sent about once a week.
             </p>
             <div className="mt-7">
-              <Link href="/contact" className="btn-primary">
-                Contact us
-              </Link>
+              <BeehiivSignup />
             </div>
+            <p className="mt-4 text-sm text-ink-soft/80">
+              No spam. Unsubscribe any time. See our{" "}
+              <Link
+                href="/privacy"
+                className="font-medium text-gold-deep underline underline-offset-2 hover:text-ink"
+              >
+                Privacy Policy
+              </Link>
+              .
+            </p>
           </div>
         </div>
       </section>
